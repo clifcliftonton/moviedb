@@ -33,7 +33,7 @@
             $scope.results = results;
         }
 
-        //POST: saves the selected movie into user's movie list
+        //POST: saves the selected movie into user's movie list.
         $scope.save = function (r) {
             var movie = {
                 Poster: r.Poster,

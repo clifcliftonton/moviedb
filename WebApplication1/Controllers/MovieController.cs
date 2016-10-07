@@ -11,6 +11,22 @@ namespace WebApplication.Controllers
 {
     public class MovieController : Controller
     {
+        /**
+         * Issue arose when trying to create a database to connect.
+         * Encountered an unfamiliar error, with few solutions online.
+         * Resulted in a lack of database. Some controllers will be lacking in methods.
+         * 
+         * Some notable methods to look at:
+         *  - GetList()
+         *  - Add()
+         *  
+         * GetList():
+         *      When a registered user goes to the view /movie/list, a list of their saved movies will be fetched from the database and displayed
+         *      
+         * Add():
+         *      When a registered user is in /movie/index view, they are able to saved movies from their search results, which are added to their account linked list
+         * 
+         **/
 
         private readonly MovieDBContext db = new MovieDBContext();
 
