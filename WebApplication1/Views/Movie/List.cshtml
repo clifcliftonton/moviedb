@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Scripts.Render("~/bundles/listcontroller")
+<div class="container">
+    <div ng-controller="ListController">
+        <br />
+        <div>
+            <table class="table">
+                <tr>
+                    <th>Poster</th>
+                    <th>Title</th>
+                    <th>Release Year</th>
+                    <th>Rated</th>
+                    <th>Runtime</th>
+                    <th>Genre</th>
+                    <th>Director</th>
+                    <th>Actors</th>
+                    <th>Plot</th>
+                    <th>Country</th>
+                    <th>Popularity</th>
+                    <th></th>
+                </tr>
+                <tr ng-repeat="r in results">
+                    <td><img src="{{r.Poster}}" class="thumbnail"></td>
+                    <td><a href="http://www.imdb.com/title/{{r.imdbID}}">{{r.Title}}</a></td>
+                    <td>{{r.Released}}</td>
+                    <td>{{r.Rated}}</td>
+                    <td>{{r.Runtime}}</td>
+                    <td>{{r.Genre}}</td>
+                    <td>{{r.Director}}</td>
+                    <td>{{r.Actors}}</td>
+                    <td>{{r.Plot}}</td>
+                    <td>{{r.Country}}</td>
+                    <td>{{r.imdbRating}} out of {{r.imdbVotes}} votes</td>
+                    <td><button>watched</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

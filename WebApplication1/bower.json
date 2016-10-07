@@ -1,0 +1,18 @@
+{
+  "name": "moviedb",
+  "authors": [
+    "Clifton Tam <ctam@live.ca>"
+  ],
+  "description": "Project for ensemble",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
