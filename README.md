@@ -17,8 +17,9 @@ Features For This Project
 - Clear account specific list
 - Remove one movie from account specific list
 
-Partially Complete Features
+Completed Features
 ---
+- Users are able to search for movies
 - Login (needs testing)
 - Register (needs testing)
 - Saving movies to account specific list (needs testing)
