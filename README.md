@@ -20,9 +20,9 @@ Features For This Project
 Completed Features
 ---
 - Users are able to search for movies
-- Login (needs testing)
-- Register (needs testing)
-- Saving movies to account specific list (needs testing)
+- Login 
+- Register 
+- Saving movies to account specific list 
 
 Incomplete Features
 ---
